@@ -3,8 +3,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-	<h1>Let's build a WhatsApp Clone</h1>
+    // BEM Convention
+    <div className="app">
+    	<div className="app__body">
+		{/* Sidebar */}
+		{/* Chat */}
+    	</div>
     </div>
   );
 }
